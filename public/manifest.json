@@ -1,0 +1,10 @@
+{
+  "short_name": "React Interview Solution",
+  "name": "React Interview Solution",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
