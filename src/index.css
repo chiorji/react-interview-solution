@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 8px);
+  font-size: 9rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .elem {
+    transition: all .3s ease-in-out;
+  }
+}
+
+.times {
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+}
+
+.firacode {
+  color: green;
+  font-family: 'fira code';
+}
+
+.serif {
+  color: blue;
+  font-family: serif;
+  font-style: italic;
+}
+
+.trebuchet {
+  color: pink;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.comic {
+  color: orange;
+  font-family: 'Comic Sans';
+  font-style: italic;
+}
